@@ -113,7 +113,7 @@ flowchart TD
 
 <details>
 <summary>Click to view Video</summary>
-
+</details>
 
 ---
 
