@@ -97,9 +97,9 @@ Make sure you have the required software installed before proceeding.
 
 ```mermaid
 flowchart TD
-    A[Factory I/O Tank] -->|Level Signal| B[PLC (PID Block)]
-    B -->|Control Signal| C[Valve Actuator]
-    B --> D[HMI Display]
+    A["Factory I/O Tank"] -->|Level Signal| B["PLC (PID Block)"]
+    B -->|Control Signal| C["Valve Actuator"]
+    B --> D["HMI Display"]
     D -->|Kp, Ki, Kd Adjust| B
     D -->|Setpoint Adjust| B
     C --> A
